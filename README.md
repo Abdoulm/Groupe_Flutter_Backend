@@ -10,7 +10,9 @@ Lien général : http://localhost:8080/api
   - Ajout d'un panneau : Méthode => POST
   
     Lien d'accès => http://localhost:8080/api/addPanneau
+    
     Votre Body sera alors : Ex:....
+    
     {
       "nom": "indication",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/France_road_sign_A14.svg/1200px-France_road_sign_A14.svg.png",
