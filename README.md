@@ -7,7 +7,8 @@ Ensuite voici les différentes méthodes :
 
 Lien général : http://localhost:8080/api
 
-  - Ajout d'un panneau : Méthode => POST 
+  - Ajout d'un panneau : Méthode => POST
+  
     Lien d'accès => http://localhost:8080/api/addPanneau
     Votre Body sera alors : Ex:....
     {
