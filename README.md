@@ -35,12 +35,15 @@ Lien général : http://localhost:8080/api
   - Récupérer un panneau par ID : Méthode => GET
   
     Lien d'accès => http://localhost:8080/api/getPanneauById/{donnerID}
+    
     Ex: http://localhost:8080/api/getPanneauById/1 (Récupère le panneau avec l'Id 1)
     
   - Récupérer un panneau par Catégorie : Méthode => GET
   
     Voici les catégories : (INTERDICTIONS, INDICATIONS, DANGERS, OBLIGATIONS, DIRECTIONS)
+    
     Lien d'accès => http://localhost:8080/api/getPanneauByCategory/{donnerCategorie}
+    
     Ex: http://localhost:8080/api/getPanneauByCategory/DANGERS
     
   - Modifier un panneau : Méthode => PUT
