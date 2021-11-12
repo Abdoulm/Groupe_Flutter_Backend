@@ -22,13 +22,17 @@ Lien général : http://localhost:8080/api
     }
     
   - Récupérer tous les panneaux : Méthode => GET
+  
     Lien d'accès => http://localhost:8080/api/getAllPanneaux
     
   - Récupérer un panneau par ID : Méthode => GET
+  
     Lien d'accès => http://localhost:8080/api/getPanneauById/{donnerID}
     
   - Récupérer un panneau par Catégorie : Méthode => GET
+  
     Lien d'accès => http://localhost:8080/api/getPanneauByCategory/{donnerCategorieID}
     
   - Modifier un panneau : Méthode => PUT
+  
     Lien d'accès => http://localhost:8080/api/updatePanneau/{panneauID}
