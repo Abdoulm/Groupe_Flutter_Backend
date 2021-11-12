@@ -14,19 +14,19 @@ Lien général : http://localhost:8080/api
     Votre Body sera alors : Ex:....
     
     
-    {
-    
-      "nom": "indication",
-      
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/France_road_sign_A14.svg/1200px-France_road_sign_A14.svg.png",
-      
-      "categorie": "INDICATIONS",
-      
-      "description": "Lorem ipsumzljdklzndlkznd",
-      
-      "audio": "audio3"
-      
-    }
+      {
+
+          "nom": "indication",
+
+          "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/France_road_sign_A14.svg/1200px-France_road_sign_A14.svg.png",
+
+          "categorie": "INDICATIONS",
+
+          "description": "Lorem ipsumzljdklzndlkznd",
+
+          "audio": "audio3"
+
+      }
     
   - Récupérer tous les panneaux : Méthode => GET
   
