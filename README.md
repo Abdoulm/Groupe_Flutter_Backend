@@ -11,7 +11,7 @@ Lien général : http://localhost:8080/api
   
     Lien d'accès => http://localhost:8080/api/addPanneau
     
-    Votre Body sera alors : Ex:....
+    Votre Body sera alors : Ex : ....
     
     
       {
@@ -36,7 +36,7 @@ Lien général : http://localhost:8080/api
   
     Lien d'accès => http://localhost:8080/api/getPanneauById/{donnerID}
     
-    Ex: http://localhost:8080/api/getPanneauById/1 (Récupère le panneau avec l'Id 1)
+    Ex : http://localhost:8080/api/getPanneauById/1 (Récupère le panneau avec l'Id 1)
     
   - Récupérer un panneau par Catégorie : Méthode => GET
   
@@ -44,8 +44,19 @@ Lien général : http://localhost:8080/api
     
     Lien d'accès => http://localhost:8080/api/getPanneauByCategory/{donnerCategorie}
     
-    Ex: http://localhost:8080/api/getPanneauByCategory/DANGERS
+    Ex : http://localhost:8080/api/getPanneauByCategory/DANGERS
     
   - Modifier un panneau : Méthode => PUT
   
     Lien d'accès => http://localhost:8080/api/updatePanneau/{panneauID}
+    
+    Ex : http://localhost:8080/api/updatePanneau/2
+    
+          {
+              "nom": "indication",
+              "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/France_road_sign_A14.svg/1200px-France_road_sign_A14.svg.png",
+              "categorie": "INDICATIONS",
+              "description": "Lorem ipsumzljdklzndlkznd",
+              "audio": "audio3",
+              "id": 2
+          }
