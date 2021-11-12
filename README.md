@@ -1,4 +1,4 @@
-# groupeFlutter
+# Groupe Flutter (ODK)
 
 API pour le projet Siraba Chariaw (Orange Digital Kalanso)
 # Fonctionnement
