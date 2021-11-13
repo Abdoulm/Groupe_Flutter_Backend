@@ -1,6 +1,5 @@
 package com.groupeflutter.groupeflutterapi.controllers;
 
-import com.groupeflutter.groupeflutterapi.Model.Categories;
 import com.groupeflutter.groupeflutterapi.Model.Panneaux;
 import com.groupeflutter.groupeflutterapi.services.PanneauServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,12 +31,6 @@ public class PanneauController
     public Panneaux getPanneauById(@PathVariable("id") Long panneauId)
     {
         return panneauServiceImp.getPanneauById(panneauId);
-    }
-
-    @GetMapping("/getPanneauByCategory/{categorie}")
-    public List<Panneaux> getPanneauByCategory(@PathVariable("categorie") Categories categorie)
-    {
-        return panneauServiceImp.getPanneauByCategory(categorie);
     }
 
     @PutMapping("/updatePanneau/{id}")

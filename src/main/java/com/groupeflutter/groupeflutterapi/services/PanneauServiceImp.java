@@ -1,6 +1,5 @@
 package com.groupeflutter.groupeflutterapi.services;
 
-import com.groupeflutter.groupeflutterapi.Model.Categories;
 import com.groupeflutter.groupeflutterapi.Model.Panneaux;
 import com.groupeflutter.groupeflutterapi.repositories.PanneauRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,12 +33,6 @@ public class PanneauServiceImp implements PanneauService
         return panneauRepository.findById(panneauId).get();
     }
 
-    //Methode pour récupérer un panneau par catégories
-    public List<Panneaux> getPanneauByCategory(Categories categorie)
-    {
-        return panneauRepository.findBycategorie(categorie);
-    }
-
     //Methode pour modifier un panneau
     @Transactional
     public void updatePanneau(Panneaux panneaux, Long panneauId)
@@ -49,7 +42,6 @@ public class PanneauServiceImp implements PanneauService
         panneauExistant.setNom(panneaux.getNom());
         panneauExistant.setPhoto(panneaux.getPhoto());
         panneauExistant.setAudio(panneaux.getAudio());
-        panneauExistant.setCategorie(panneaux.getCategorie());
         panneauExistant.setDescription(panneaux.getDescription());
 
     }
