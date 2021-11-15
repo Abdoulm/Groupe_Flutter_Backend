@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="groupeflutterapi" />
         <module name="groupeFlutter" />
+        <module name="Groupe_Flutter_Backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Groupe_Flutter_Backend" options="-parameters" />
       <module name="groupeFlutter" options="-parameters" />
       <module name="groupeflutterapi" options="-parameters" />
     </option>

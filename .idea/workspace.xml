@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb9d3e48-10cd-4e27-9ada-79b63e23b13a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/controllers/PanneauController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/controllers/PanneauController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/repositories/PanneauRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/repositories/PanneauRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/CategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/CategoryServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/PanneauService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/PanneauService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/PanneauServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/services/PanneauServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/groupeflutter/groupeflutterapi/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/GroupeflutterapiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/GroupeflutterapiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/Model/Panneaux.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/Model/Panneaux.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/controllers/PanneauController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/controllers/PanneauController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/repositories/PanneauRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/repositories/PanneauRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/services/PanneauService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/services/PanneauService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/services/PanneauServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/groupeflutter/groupeflutterapi/services/PanneauServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/groupeflutter/groupeflutterapi/GroupeflutterapiApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/groupeflutter/groupeflutterapi/GroupeflutterapiApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
