@@ -1,5 +1,6 @@
 package com.groupeflutter.groupeflutterapi.services;
 
+import com.groupeflutter.groupeflutterapi.Model.Category;
 import com.groupeflutter.groupeflutterapi.Model.Panneaux;
 import com.groupeflutter.groupeflutterapi.repositories.PanneauRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,5 +45,10 @@ public class PanneauServiceImp implements PanneauService
         panneauExistant.setAudio(panneaux.getAudio());
         panneauExistant.setDescription(panneaux.getDescription());
 
+    }
+
+    @Override
+    public List<Panneaux> getPanneauByCategory(Category category) {
+        return panneauRepository.findPanneauByCategory(category);
     }
 }

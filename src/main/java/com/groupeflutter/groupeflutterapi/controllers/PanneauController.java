@@ -1,5 +1,6 @@
 package com.groupeflutter.groupeflutterapi.controllers;
 
+import com.groupeflutter.groupeflutterapi.Model.Category;
 import com.groupeflutter.groupeflutterapi.Model.Panneaux;
 import com.groupeflutter.groupeflutterapi.services.PanneauServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,5 +39,10 @@ public class PanneauController
     {
         panneauServiceImp.updatePanneau(panneaux, panneauId);
         return "Mise à jour éffectuée avec succès";
+    }
+
+    @GetMapping("/PanneauCategory/{category}")
+    public List<Panneaux> getPanneauByCategory(@PathVariable("category") Category category){
+        return panneauServiceImp.getPanneauByCategory(category);
     }
 }

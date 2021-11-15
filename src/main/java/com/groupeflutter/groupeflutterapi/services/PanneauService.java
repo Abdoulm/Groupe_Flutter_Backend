@@ -1,5 +1,6 @@
 package com.groupeflutter.groupeflutterapi.services;
 
+import com.groupeflutter.groupeflutterapi.Model.Category;
 import com.groupeflutter.groupeflutterapi.Model.Panneaux;
 
 import java.util.List;
@@ -11,4 +12,5 @@ public interface PanneauService
     List<Panneaux> getAllPanneaux();
     Panneaux getPanneauById(Long panneauId);
     void updatePanneau(Panneaux panneaux, Long panneauId);
+    List<Panneaux> getPanneauByCategory(Category category);
 }
